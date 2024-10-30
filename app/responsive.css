@@ -17,6 +17,9 @@
   .menu{
     display: none;
   }
+  .Planing{
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 576px) {

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Layout = () => {
+const Layout = ({ children }) => {
   return (
     <div className='container mx-auto'>
         {/* start Navbar */}
@@ -25,6 +25,7 @@ const Layout = () => {
             </div>
         </nav>
         {/* start Main Page */}
+        <div className="main">{ children }</div>
         {/* start footer */}
     </div>
   )
