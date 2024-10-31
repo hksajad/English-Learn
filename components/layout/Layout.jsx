@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -27,6 +28,12 @@ const Layout = ({ children }) => {
         {/* start Main Page */}
         <div className="main">{ children }</div>
         {/* start footer */}
+        <footer className='footer bg-[#F7F7F7] mt-[100px]'>
+            <div className="footer flex justify-center items-center pt-2 pb-2 gap-5 max-[768px]:gap-1">
+                <h1 className='text-[#0e1f51]'>طراحی شده توسط</h1>
+                <Link href='https://developmart.ir/'><Image src='/img/logo-light.png' width={200} height={200}/></Link>
+            </div>
+        </footer>
     </div>
   )
 }
