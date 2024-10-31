@@ -5,12 +5,12 @@ const Banner = () => {
   return (
     <div className="Banner mt-[30px] flex justify-around items-center w-full max-[768px]:flex-col max-[992px]:gap-8 max-[768px]:mt-[70px]">
       {/* img banner */}
-      <div className="img_banner w-fit h-fit bg-[#ff3e54da] rounded-lg flex justify-center items-center">
+      <div className="img_banner w-fit h-fit bg-[#ff3e54da] rounded-lg flex justify-center items-center max-[768px]:w-full">
         <Image
           src="/img/img_banner.png"
           width={310}
           height={305}
-          className="w-fit max-[768px]:h-fit"
+          className="w-fit max-[768px]:w-full"
         />
       </div>
       {/* caption banner */}
