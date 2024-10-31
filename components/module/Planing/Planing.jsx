@@ -45,11 +45,11 @@ const Planing = () => {
       </div>
       <div className="items_planing mt-[50px] w-full flex justify-around items-center flex-wrap">
         {dataPlan.map((plan) => (
-          <div className="content_plan bg-[#F7F7F7] w-[220px] rounded-lg flex flex-col p-[20px] max-[992px]:m-5 max-[992px]:w-[250px] max-[768px]:w-full">
-            <div className="img_plan" key={plan.id}><Image src={plan.img} width={40} height={40}/></div>
-            <div className="title_plan pt-4 text-[#0E1F51] font-extrabold text-[20px]"key={plan.id}>{plan.title}</div>
-            <div className="border_plan mt-4"key={plan.id}><Image src={plan.borderimg} width={90} height={90} className="w-[90px] h-[4px]"/></div>
-            <div className="caption_plan mt-4"key={plan.id}><p className="text-justify text-[#0E1F51] font-medium text-[16px]" >{plan.caption}</p></div>
+          <div className="content_plan bg-[#F7F7F7] w-[220px] rounded-lg flex flex-col p-[20px] max-[992px]:m-5 max-[992px]:w-[250px] max-[768px]:w-full" key={plan.id}>
+            <div className="img_plan"><Image src={plan.img} width={40} height={40}/></div>
+            <div className="title_plan pt-4 text-[#0E1F51] font-extrabold text-[20px]">{plan.title}</div>
+            <div className="border_plan mt-4"><Image src={plan.borderimg} width={90} height={90} className="w-[90px] h-[4px]"/></div>
+            <div className="caption_plan mt-4"><p className="text-justify text-[#0E1F51] font-medium text-[16px]">{plan.caption}</p></div>
           </div>
         ))}
       </div>
