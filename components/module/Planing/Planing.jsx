@@ -49,7 +49,7 @@ const Planing = () => {
             <div className="img_plan" key={plan.id}><Image src={plan.img} width={40} height={40}/></div>
             <div className="title_plan pt-4 text-[#0E1F51] font-extrabold text-[20px]"key={plan.id}>{plan.title}</div>
             <div className="border_plan mt-4"key={plan.id}><Image src={plan.borderimg} width={90} height={90} className="w-[90px] h-[4px]"/></div>
-            <div className="caption_plan mt-4"><p className="text-justify text-[#0E1F51] font-medium text-[16px]" key={plan.id}>{plan.caption}</p></div>
+            <div className="caption_plan mt-4"key={plan.id}><p className="text-justify text-[#0E1F51] font-medium text-[16px]" >{plan.caption}</p></div>
           </div>
         ))}
       </div>
