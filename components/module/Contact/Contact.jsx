@@ -1,9 +1,10 @@
 import { FaPhone } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import Link from "next/link";
 const Contact = () => {
   return (
-    <div className="Contact mt-[100px]">
+    <div className="Contact mt-[100px]" id="Contact">
       <div className="title_contact flex justify-center items-center flex-col">
         <span className="text-[#ff3e54da] font-bold text-[20px]">
           \ تماس بگیرید \
@@ -49,8 +50,28 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contactForm bg-[#F7F7F7] w-[750px] h-[500px] max-[992px]:w-[500px] max-[768px]:w-full">
-            <h1>تست</h1>
+        <div className="contactForm  w-[750px] max-[992px]:w-[500px] max-[768px]:w-full">
+          <form className="form flex flex-col gap-5">
+            <input
+              type="text"
+              placeholder="نام و نام خانوادگی"
+              className="w-full border-2 p-1 outline-none"
+            />
+            <input
+              type="email"
+              placeholder="ایمیل"
+              className="w-full border-2 p-1 outline-none"
+            />
+            <input
+              type="number"
+              placeholder="تلفون"
+              className="w-full border-2 p-1 outline-none"
+            />
+            <textarea name="massage" placeholder="پیام خود را وارد کنید" className="w-full border-2 p-1 outline-none min-h-[100px]"></textarea>
+            <div className="link_contact">
+              <Link href='/' className="bg-[#ff3e54da] text-[#fff] w-fit px-4 py-2 rounded-md">ارسال پیام</Link>
+            </div>
+          </form>
         </div>
       </div>
     </div>

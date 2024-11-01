@@ -13,7 +13,7 @@ const Testimonials = () => {
         <span className="text-[#ff3e54da] font-bold text-[20px]">
           \ از مشتریان ما \
         </span>
-        <h1 className="text-[#0E1F51] font-bold text-[40px]"> مشتریان </h1>
+        <h1 className="text-[#0E1F51] font-bold text-[30px]"> مشتریان </h1>
       </div>
       <div className="item_Testimonials mt-[50px] w-full flex justify-around items-center flex-wrap">
         {TestimonialsItems.map((index) => (

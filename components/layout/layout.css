@@ -1,0 +1,7 @@
+.contactImg{
+    width: 945px;
+    height: 294px;
+    background-image: url('/img/Rectangle 14.png');
+    margin: 0 auto;
+    background-size: cover;
+}

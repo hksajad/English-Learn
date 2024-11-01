@@ -41,7 +41,7 @@ const Planing = () => {
         <span className="text-[#ff3e54da] font-bold text-[20px]">
           \ برنامه ریزی \
         </span>
-        <h1 className="text-[#0E1F51] font-bold text-[40px]">فرآیند ما </h1>
+        <h1 className="text-[#0E1F51] font-bold text-[30px]">فرآیند ما </h1>
       </div>
       <div className="items_planing mt-[50px] w-full flex justify-around items-center flex-wrap">
         {dataPlan.map((plan) => (
