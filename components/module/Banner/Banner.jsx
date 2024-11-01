@@ -19,7 +19,7 @@ const Banner = () => {
           \ ما اینجا هستیم \
         </h1>
         <span className="text-[#0E1F51] mt-5 text-[40px]">بینش بهتر برای رشد کسب و کار</span>
-        <Link href='/' className="w-fit bg-[#ff3e54da] px-2 py-2 mt-5 text-[#fff] rounded-lg max-[768px]:m-auto max-[768px]:mt-8">درباره ما</Link>
+        <Link href='/AboutPage' className="w-fit bg-[#ff3e54da] px-2 py-2 mt-5 text-[#fff] rounded-lg max-[768px]:m-auto max-[768px]:mt-8">درباره ما</Link>
       </div>
     </div>
   );
